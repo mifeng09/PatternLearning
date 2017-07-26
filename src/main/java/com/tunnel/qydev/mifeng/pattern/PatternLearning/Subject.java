@@ -1,0 +1,17 @@
+package com.tunnel.qydev.mifeng.pattern.PatternLearning;
+
+public interface Subject {
+	/**
+	    *增加订阅者
+	    **/
+	    public void attach(Observer observer);
+	    /**
+	    *增加订阅者
+	    **/
+	    public void detach(Observer observer);
+	    /**
+	     * 通知订阅者更新消息
+	     */
+	     public void notify(String message);
+
+}
